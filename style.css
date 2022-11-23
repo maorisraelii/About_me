@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: right;
+    justify-content: right;
+}
+
+.profile_pic{
+    order: 1;
+}
+
+.bio{
+    order: 2;
+}
+
+h1{
+    /* 1 */
+    color: #ff0000;
+    /* 2 */
+    font-size: 56px;
+    /* 3 */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: darkblue;
+    font-size: 25px;
+}
+
+html{
+    /* 4 */
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 5 */
+#sites_list{
+    color: blue;
+}
+
+#songs_list{
+    color: darkslategrey;
+}
+
+#profile_img{
+    width: auto;
+    height: 300px;
+}
